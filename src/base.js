@@ -25,4 +25,10 @@ const fontkit = {
   },
 };
 
+fontkit.defaultLanguage = 'en';
+fontkit.setDefaultLanguage = function(lang = 'en') {
+  fontkit.defaultLanguage = lang;
+};
+
 export default fontkit;
+

@@ -27,7 +27,11 @@ export default class Path {
    * @return {string}
    */
   toFunction() {
-    return (ctx) => this.commands.forEach((c) => ctx[c.command].apply(ctx, c.args));
+    return ctx => {
+      this.commands.forEach(c => {
+        return ctx[c.command].apply(ctx, c.args)
+      })
+    };
   }
 
   /**
