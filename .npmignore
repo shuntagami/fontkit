@@ -4,5 +4,4 @@ test/
 .travis.yml
 esdoc.json
 index.html
-rollup.config.js
 stats.html
