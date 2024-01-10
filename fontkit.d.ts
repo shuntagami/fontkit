@@ -540,7 +540,7 @@ export interface AATFeatures {
  * the OpenType feature tags are mapped to AAT features.
  */
 export interface TypeFeatures extends OpenTypeFeatures, AATFeatures {
-  [key: string]: boolean;
+  [key: string]: boolean | undefined;
 }
 
 /**
