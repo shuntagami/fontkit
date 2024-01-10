@@ -2,7 +2,6 @@ test/
 .gitignore
 .nycrc
 .travis.yml
-babel.config.js
 esdoc.json
 index.html
 rollup.config.js
